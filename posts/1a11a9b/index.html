@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN" color-mode="light">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="liutailin" />
+  <meta name="description" content="一个自言自语的地方" />
+  
+  
+  <title>
+    
+      快速搭建使用PHP语言的Mirai机器人 
+      
+      
+      |
+    
+     liutailin&#39;s blog
+  </title>
+
+  
+    <link rel="apple-touch-icon" href="/images/favicon.png">
+    <link rel="icon" href="/images/favicon.png">
+  
+
+  <!-- Raleway-Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- hexo site css -->
+  
+<link rel="stylesheet" href="/css/color-scheme.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/iconfont/iconfont.css">
+<link rel="stylesheet" href="/css/github-markdown.css">
+<link rel="stylesheet" href="/css/highlight.css">
+<link rel="stylesheet" href="/css/comments.css">
+
+
+  <!-- jquery3.3.1 -->
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- fancybox -->
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <script async src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+  
+<script src="/js/fancybox.js"></script>
+
+
+  
+
+  <script>
+    var html = document.documentElement
+    const colorMode = localStorage.getItem('color-mode')
+    if (colorMode) {
+      document.documentElement.setAttribute('color-mode', colorMode)
+    }
+  </script>
+
+<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="liutailin's blog" type="application/atom+xml">
+</head>
+
+
+  <body>
+    <div id="app">
+      <div class="header">
+  <div class="avatar">
+    <a href="/">
+      <!-- 头像取消懒加载，添加no-lazy -->
+      
+        <img src="/images/avatar.png" alt="">
+      
+    </a>
+    <div class="nickname"><a href="/">Oranges</a></div>
+  </div>
+  <div class="navbar">
+    <ul>
+      
+        <li class="nav-item" data-path="/">
+          <a href="/">Home</a>
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          <a href="/archives/">Archives</a>
+        </li>
+      
+        <li class="nav-item" data-path="/categories/">
+          <a href="/categories/">Categories</a>
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          <a href="/tags/">Tags</a>
+        </li>
+      
+        <li class="nav-item" data-path="/friends/">
+          <a href="/friends/">Friends</a>
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          <a href="/about/">About</a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<script src="/js/activeNav.js"></script>
+
+
+
+      <div class="flex-container">
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">快速搭建使用PHP语言的Mirai机器人</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="更新时间"></i>
+          2021-08-14 00:00:00
+        </span>
+        
+              <span class="post-categories">
+                <i class="iconfont icon-bookmark" title="分类"></i>
+                
+                <span class="span--category">
+                  <a href="/categories/%E6%95%99%E7%A8%8B/" title="教程">
+                    <b>#</b> 教程
+                  </a>
+                </span>
+                
+              </span>
+          
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="标签"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/PHP/" title="PHP">
+                    <b>#</b> PHP
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/Mirai/" title="Mirai">
+                    <b>#</b> Mirai
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/mirai-api-http/" title="mirai-api-http">
+                    <b>#</b> mirai-api-http
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/miraiez/" title="miraiez">
+                    <b>#</b> miraiez
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/QQ/" title="QQ">
+                    <b>#</b> QQ
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="机器人">
+                    <b>#</b> 机器人
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="启动Mirai"><a href="#启动Mirai" class="headerlink" title="启动Mirai"></a>启动Mirai</h2><p>推荐使用官方启动器 <a target="_blank" rel="noopener" href="https://github.com/iTXTech/mirai-console-loader">mirai-console-loader</a> 自行启动 <a target="_blank" rel="noopener" href="https://github.com/mamoe/mirai">mirai</a> 与 <a target="_blank" rel="noopener" href="https://github.com/mamoe/mirai-api-http">mirai-api-http</a> 插件。</p>
+<blockquote>
+<p>由于种种原因，本教程不提供 <code>mirai</code> 的使用教程。</p>
+<p>你可以查看 <a target="_blank" rel="noopener" href="https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md">Mirai 用户手册</a> 。</p>
+<p>你需要具备自行启动 <code>mirai</code> 的能力。</p>
+</blockquote>
+<h2 id="搭建PHP环境"><a href="#搭建PHP环境" class="headerlink" title="搭建PHP环境"></a>搭建PHP环境</h2><p><code>8.0</code> &gt; <code>PHP Version</code> ≥ <code>7.0</code></p>
+<p>使用 <code>Apache</code> 、 <code>Nginx</code> 或者 <code>IIS</code> 等搭建都可以。</p>
+<blockquote>
+<p>由于此类教程繁多，本教程不提供搭建 <code>PHP 环境</code> 的教程。</p>
+<p>建议自行百度：<a target="_blank" rel="noopener" href="https://lmbtfy.tk/?q=5pCt5bu6UEhQ546v5aKD">搭建PHP环境</a> 。</p>
+</blockquote>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>在 <a target="_blank" rel="noopener" href="https://github.com/nkxingxh/miraiez">miraiez</a> 仓库中拉取最新代码。</p>
+<p>代码须放置于 <code>PHP Web 服务端</code> 中。</p>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><ol>
+<li>在 <code>mirai-api-http</code> 的配置文件 <code>setting.yml</code> 中启用 <code>http</code> 和 <code>webhook</code> 适配器。</li>
+<li>将 <code>webhook</code> 适配器的回调地址设置为 <code>webhook.php</code> 的所在地址。</li>
+<li>完成上述步骤后，请修改 <code>miraiez</code> 的配置文件  <code>config.php</code>  。</li>
+</ol>
+<h2 id="配置参考"><a href="#配置参考" class="headerlink" title="配置参考"></a>配置参考</h2><h3 id="config-php"><a href="#config-php" class="headerlink" title="config.php"></a>config.php</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">define(<span class="string">&quot;httpApi&quot;</span>, <span class="string">&quot;http://localhost:90&quot;</span>); <span class="comment">//http api</span></span><br><span class="line">define(<span class="string">&quot;verifyKey&quot;</span>, <span class="string">&quot;0123456789&quot;</span>);        <span class="comment">//http api verifyKey</span></span><br><span class="line">define(<span class="string">&quot;Authorization&quot;</span>, <span class="string">&quot;&quot;</span>);              <span class="comment">//webhook Authorization</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="setting-yml"><a href="#setting-yml" class="headerlink" title="setting.yml"></a>setting.yml</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 启用的 adapter, 内置有 http, ws, reverse-ws, webhook</span></span><br><span class="line"><span class="attr">adapters:</span> </span><br><span class="line">  <span class="bullet">-</span> <span class="string">http</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">webhook</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 是否开启认证流程, 若为 true 则建立连接时需要验证 verifyKey</span></span><br><span class="line"><span class="comment">## 建议公网连接时开启</span></span><br><span class="line"><span class="attr">enableVerify:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">verifyKey:</span> <span class="number">0123456789</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 开启一些调式信息</span></span><br><span class="line"><span class="attr">debug:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 是否开启单 session 模式, 若为 true，则自动创建 session 绑定 console 中登录的 bot</span></span><br><span class="line"><span class="comment">## 开启后，接口中任何 sessionKey 不需要传递参数</span></span><br><span class="line"><span class="comment">## 若 console 中有多个 bot 登录，则行为未定义</span></span><br><span class="line"><span class="comment">## 确保 console 中只有一个 bot 登陆时启用</span></span><br><span class="line"><span class="attr">singleMode:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 历史消息的缓存大小</span></span><br><span class="line"><span class="comment">## 同时，也是 http adapter 的消息队列容量</span></span><br><span class="line"><span class="attr">cacheSize:</span> <span class="number">4096</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## adapter 的单独配置，键名与 adapters 项配置相同</span></span><br><span class="line"><span class="attr">adapterSettings:</span></span><br><span class="line">  <span class="comment">## 详情看 http adapter 使用说明 配置</span></span><br><span class="line">  <span class="attr">http:</span></span><br><span class="line">    <span class="attr">host:</span> <span class="string">localhost</span></span><br><span class="line">    <span class="attr">port:</span> <span class="number">90</span></span><br><span class="line">    <span class="attr">cors:</span> [<span class="string">*</span>]</span><br><span class="line">  <span class="comment">## 详情看 webhook adapter 使用说明 配置</span></span><br><span class="line">  <span class="attr">webhook:</span></span><br><span class="line">    <span class="attr">destinations:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;http://localhost:80/webhook.php&#x27;</span></span><br><span class="line">    <span class="attr">extraHeaders:</span></span><br><span class="line">      <span class="attr">Authorization:</span> <span class="string">&#x27;bearer SV*(&amp;*(SH@ID^G&#x27;</span></span><br><span class="line">      <span class="attr">hedaer1:</span> <span class="string">value1</span></span><br><span class="line">      <span class="attr">hedaer2:</span> <span class="string">value2</span></span><br></pre></td></tr></table></figure>
+
+<p>如需了解更多，可以查看 <code>mirai-api-http</code> 官方 <a target="_blank" rel="noopener" href="https://github.com/project-mirai/mirai-api-http/blob/master/README.md">文档</a> 。</p>
+<h1 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h1><p>向你的机器人发送 <code>hello</code> 。</p>
+<p>如果机器人回复 <code>Hello world</code> 。</p>
+<p>那么恭喜你，你的 <code>MiraiPHP 机器人</code> 搭建成功了！</p>
+<h1 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h1><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p>你可以使用 <code>PHP</code> 编写机器人插件。</p>
+<p>将你编写的插件放入 <code>plugins</code> 文件夹。</p>
+<p>并在 <code>webhook.php</code> 中加入插件列表即可。</p>
+<p>查看 <code>plugins</code> 文件夹中的示例插件。</p>
+<p>注意是 <code>miraiez</code> 文件中的 <code>plugins</code> 文件夹！</p>
+<p><code>easyMirai.php</code> 中的是核心函数。</p>
+<p>可以帮助你更快的编写插件。</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>你可以查看 Mirai 、 mirai-api-http 、miraiez 对应的文档，以便快速入门。</p>
+<p><a target="_blank" rel="noopener" href="https://docs.mirai.mamoe.net/">Mirai 文档</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/project-mirai/mirai-api-http/blob/master/README.md">mirai-api-http 文档</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/nkxingxh/miraiez/blob/main/README.md">miraiez 文档</a></p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/posts/815dd706/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="更新时间"></i>
+              2021-08-14 00:00:00
+            </span>
+            
+                  <span class="post-categories">
+                    <i class="iconfont icon-bookmark" title="分类"></i>
+                    
+                    <span class="span--category">
+                      <a href="/categories/%E6%95%99%E7%A8%8B/" title="教程">
+                        <b>#</b> 教程
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="标签"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/PHP/" title="PHP">
+                        <b>#</b> PHP
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Mirai/" title="Mirai">
+                        <b>#</b> Mirai
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/mirai-api-http/" title="mirai-api-http">
+                        <b>#</b> mirai-api-http
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/miraiez/" title="miraiez">
+                        <b>#</b> miraiez
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/QQ/" title="QQ">
+                        <b>#</b> QQ
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="机器人">
+                        <b>#</b> 机器人
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
+        </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">目录</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B"><span class="toc-text">开始</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8Mirai"><span class="toc-text">启动Mirai</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BAPHP%E7%8E%AF%E5%A2%83"><span class="toc-text">搭建PHP环境</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE"><span class="toc-text">配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83"><span class="toc-text">配置参考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#config-php"><span class="toc-text">config.php</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#setting-yml"><span class="toc-text">setting.yml</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%8C%E6%88%90"><span class="toc-text">完成</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A"><span class="toc-text">更多</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6"><span class="toc-text">插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9"><span class="toc-text">帮助</span></a></li></ol></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
+      </div>
+    
+  </div>
+
+
+        <div class="footer">
+  <div class="social">
+    <ul>
+      
+        <li>
+          <a title="github" target="_blank" rel="noopener" href="https://github.com/cn-liutailin">
+            <i class="iconfont icon-github"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="email" href="mailto:me@liutailin.cn">
+            <i class="iconfont icon-envelope"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="rss" href="/atom.xml">
+            <i class="iconfont icon-rss"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+  
+    <div class="footer-more">
+      
+        <a href="https://liutailin.cn">Copyright © liutailin 2021</a>
+        
+    </div>
+  
+    <div class="footer-more">
+      
+        <a target="_blank" rel="noopener" href="https://github.com/zchengsite/hexo-theme-oranges">Theme by Oranges | Powered by Hexo</a>
+        
+    </div>
+  
+</div>
+
+      </div>
+
+      <div class="tools-bar">
+        <div class="back-to-top tools-bar-item hidden">
+  <a href="javascript: void(0)">
+    <i class="iconfont icon-chevronup"></i>
+  </a>
+</div>
+
+
+<script src="/js/backtotop.js"></script>
+
+
+
+        
+  <div class="search-icon tools-bar-item" id="search-icon">
+    <a href="javascript: void(0)">
+      <i class="iconfont icon-search"></i>
+    </a>
+  </div>
+
+  <div class="search-overlay hidden">
+    <div class="search-content" tabindex="0">
+      <div class="search-title">
+        <span class="search-icon-input">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-search"></i>
+          </a>
+        </span>
+        
+          <input type="text" class="search-input" id="search-input" placeholder="搜索...">
+        
+        <span class="search-close-icon" id="search-close-icon">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-close"></i>
+          </a>
+        </span>
+      </div>
+      <div class="search-result" id="search-result"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var inputArea = document.querySelector("#search-input")
+    var searchOverlayArea = document.querySelector(".search-overlay")
+
+    inputArea.onclick = function() {
+      getSearchFile()
+      this.onclick = null
+    }
+
+    inputArea.onkeydown = function() {
+      if(event.keyCode == 13)
+        return false
+    }
+
+    function openOrHideSearchContent() {
+      let isHidden = searchOverlayArea.classList.contains('hidden')
+      if (isHidden) {
+        searchOverlayArea.classList.remove('hidden')
+        document.body.classList.add('hidden')
+        // inputArea.focus()
+      } else {
+        searchOverlayArea.classList.add('hidden')
+        document.body.classList.remove('hidden')
+      }
+    }
+
+    function blurSearchContent(e) {
+      if (e.target === searchOverlayArea) {
+        openOrHideSearchContent()
+      }
+    }
+
+    document.querySelector("#search-icon").addEventListener("click", openOrHideSearchContent, false)
+    document.querySelector("#search-close-icon").addEventListener("click", openOrHideSearchContent, false)
+    searchOverlayArea.addEventListener("click", blurSearchContent, false)
+
+    var searchFunc = function (path, search_id, content_id) {
+      'use strict';
+      var $input = document.getElementById(search_id);
+      var $resultContent = document.getElementById(content_id);
+      $resultContent.innerHTML = "<ul><span class='local-search-empty'>首次搜索，正在载入索引文件，请稍后……<span></ul>";
+      $.ajax({
+        // 0x01. load xml file
+        url: path,
+        dataType: "xml",
+        success: function (xmlResponse) {
+          // 0x02. parse xml file
+          var datas = $("entry", xmlResponse).map(function () {
+            return {
+              title: $("title", this).text(),
+              content: $("content", this).text(),
+              url: $("url", this).text()
+            };
+          }).get();
+          $resultContent.innerHTML = "";
+
+          $input.addEventListener('input', function () {
+            // 0x03. parse query to keywords list
+            var str = '<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length <= 0) {
+              return;
+            }
+            // 0x04. perform local searching
+            datas.forEach(function (data) {
+              var isMatch = true;
+              var content_index = [];
+              if (!data.title || data.title.trim() === '') {
+                data.title = "Untitled";
+              }
+              var orig_data_title = data.title.trim();
+              var data_title = orig_data_title.toLowerCase();
+              var orig_data_content = data.content.trim().replace(/<[^>]+>/g, "");
+              var data_content = orig_data_content.toLowerCase();
+              var data_url = data.url;
+              var index_title = -1;
+              var index_content = -1;
+              var first_occur = -1;
+              // only match artiles with not empty contents
+              if (data_content !== '') {
+                keywords.forEach(function (keyword, i) {
+                  index_title = data_title.indexOf(keyword);
+                  index_content = data_content.indexOf(keyword);
+
+                  if (index_title < 0 && index_content < 0) {
+                    isMatch = false;
+                  } else {
+                    if (index_content < 0) {
+                      index_content = 0;
+                    }
+                    if (i == 0) {
+                      first_occur = index_content;
+                    }
+                    // content_index.push({index_content:index_content, keyword_len:keyword_len});
+                  }
+                });
+              } else {
+                isMatch = false;
+              }
+              // 0x05. show search results
+              if (isMatch) {
+                str += "<li><a href='" + data_url + "' class='search-result-title'>" + orig_data_title + "</a>";
+                var content = orig_data_content;
+                if (first_occur >= 0) {
+                  // cut out 100 characters
+                  var start = first_occur - 20;
+                  var end = first_occur + 80;
+
+                  if (start < 0) {
+                    start = 0;
+                  }
+
+                  if (start == 0) {
+                    end = 100;
+                  }
+
+                  if (end > content.length) {
+                    end = content.length;
+                  }
+
+                  var match_content = content.substr(start, end);
+
+                  // highlight all keywords
+                  keywords.forEach(function (keyword) {
+                    var regS = new RegExp(keyword, "gi");
+                    match_content = match_content.replace(regS, "<span class=\"search-keyword\">" + keyword + "</span>");
+                  });
+
+                  str += "<p class=\"search-result-abstract\">" + match_content + "...</p>"
+                }
+                str += "</li>";
+              }
+            });
+            str += "</ul>";
+            if (str.indexOf('<li>') === -1) {
+              return $resultContent.innerHTML = "<ul><span class='local-search-empty'>没有找到内容，请尝试更换检索词。<span></ul>";
+            }
+            $resultContent.innerHTML = str;
+          });
+        },
+        error: function(xhr, status, error) {
+          $resultContent.innerHTML = ""
+          if (xhr.status === 404) {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>未找到search.xml文件，具体请参考：<a href='https://github.com/zchengsite/hexo-theme-oranges#configuration' target='_black'>configuration</a><span></ul>";
+          } else {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>请求失败，尝试重新刷新页面或稍后重试。<span></ul>";
+          }
+        }
+      });
+      $(document).on('click', '#search-close-icon', function() {
+        $('#search-input').val('');
+        $('#search-result').html('');
+      });
+    }
+
+    var getSearchFile = function() {
+        var path = "/search.xml";
+        searchFunc(path, 'search-input', 'search-result');
+    }
+  </script>
+
+
+
+
+        
+  <div class="tools-bar-item theme-icon" id="switch-color-scheme">
+    <a href="javascript: void(0)">
+      <i id="theme-icon" class="iconfont icon-moon"></i>
+    </a>
+  </div>
+
+  
+<script src="/js/colorscheme.js"></script>
+
+
+
+
+
+        
+
+      </div>
+    </div>
+  </body>
+</html>

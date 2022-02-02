@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>liutailin&#39;s blog</title>
+  <icon>http://liutailin.cn/icon.png</icon>
+  <subtitle>面朝大海，春暖花开</subtitle>
+  <link href="http://liutailin.cn/atom.xml" rel="self"/>
+  
+  <link href="http://liutailin.cn/"/>
+  <updated>2021-08-13T16:00:00.000Z</updated>
+  <id>http://liutailin.cn/</id>
+  
+  <author>
+    <name>liutailin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>快速搭建使用PHP语言的Mirai机器人</title>
+    <link href="http://liutailin.cn/posts/1a11a9b/"/>
+    <id>http://liutailin.cn/posts/1a11a9b/</id>
+    <published>2021-08-13T16:00:00.000Z</published>
+    <updated>2021-08-13T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h1&gt;&lt;h2 id=&quot;启动Mirai&quot;&gt;&lt;a href=&quot;#启动Mirai&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="http://liutailin.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="PHP" scheme="http://liutailin.cn/tags/PHP/"/>
+    
+    <category term="Mirai" scheme="http://liutailin.cn/tags/Mirai/"/>
+    
+    <category term="mirai-api-http" scheme="http://liutailin.cn/tags/mirai-api-http/"/>
+    
+    <category term="miraiez" scheme="http://liutailin.cn/tags/miraiez/"/>
+    
+    <category term="QQ" scheme="http://liutailin.cn/tags/QQ/"/>
+    
+    <category term="机器人" scheme="http://liutailin.cn/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ESP8266气象站食用指南</title>
+    <link href="http://liutailin.cn/posts/815dd706/"/>
+    <id>http://liutailin.cn/posts/815dd706/</id>
+    <published>2021-01-04T16:00:00.000Z</published>
+    <updated>2021-01-04T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;我也不知道说些什么……&lt;/p&gt;
+&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="http://liutailin.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="ESP8266" scheme="http://liutailin.cn/tags/ESP8266/"/>
+    
+    <category term="物联网" scheme="http://liutailin.cn/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    
+    <category term="Arduino" scheme="http://liutailin.cn/tags/Arduino/"/>
+    
+    <category term="气象站" scheme="http://liutailin.cn/tags/%E6%B0%94%E8%B1%A1%E7%AB%99/"/>
+    
+  </entry>
+  
+</feed>
