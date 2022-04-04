@@ -6,7 +6,7 @@
   <link href="http://liutailin.cn/atom.xml" rel="self"/>
   
   <link href="http://liutailin.cn/"/>
-  <updated>2021-08-13T16:00:00.000Z</updated>
+  <updated>2022-04-03T16:00:00.000Z</updated>
   <id>http://liutailin.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在学校安全地对爱听歌的同学实施制裁</title>
+    <link href="http://liutailin.cn/posts/7f5416f8/"/>
+    <id>http://liutailin.cn/posts/7f5416f8/</id>
+    <published>2022-04-03T16:00:00.000Z</published>
+    <updated>2022-04-03T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何在学校安全地对爱听歌的同学实施制裁？&quot;&gt;&lt;a href=&quot;#如何在学校安全地对爱听歌的同学实施制裁？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="http://liutailin.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="ESP8266" scheme="http://liutailin.cn/tags/ESP8266/"/>
+    
+    <category term="Arduino" scheme="http://liutailin.cn/tags/Arduino/"/>
+    
+  </entry>
   
   <entry>
     <title>快速搭建使用PHP语言的Mirai机器人</title>
@@ -48,38 +75,6 @@
     <category term="QQ" scheme="http://liutailin.cn/tags/QQ/"/>
     
     <category term="机器人" scheme="http://liutailin.cn/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ESP8266气象站食用指南</title>
-    <link href="http://liutailin.cn/posts/815dd706/"/>
-    <id>http://liutailin.cn/posts/815dd706/</id>
-    <published>2021-01-04T16:00:00.000Z</published>
-    <updated>2021-01-04T16:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;我也不知道说些什么……&lt;/p&gt;
-&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="http://liutailin.cn/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="ESP8266" scheme="http://liutailin.cn/tags/ESP8266/"/>
-    
-    <category term="物联网" scheme="http://liutailin.cn/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
-    
-    <category term="Arduino" scheme="http://liutailin.cn/tags/Arduino/"/>
-    
-    <category term="气象站" scheme="http://liutailin.cn/tags/%E6%B0%94%E8%B1%A1%E7%AB%99/"/>
     
   </entry>
   

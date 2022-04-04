@@ -11,8 +11,8 @@
   
   <title>
     
-      标签 
-       : 气象站
+      archive_a: 2022/4 
+      
       
       |
     
@@ -110,29 +110,47 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
-<div class="container tag-details">
-  <div class="content-title">
-    <h2>
-      <span>气象站</span>
-    </h2>
-  </div>
-  
-    <div class="post-list">
-      <div class="post-item" title="ESP8266气象站食用指南">
-        <span class="time-m-d">2021-01-05</span>
-        <a href="/posts/815dd706/">
-          <span>ESP8266气象站食用指南</span>
-        </a>
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
+
+<div class="container archives">
+  <div class="post-list">
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2022</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="如何在学校安全地对爱听歌的同学实施制裁">
+        <div class="time-m-d">04-04</div>
+        <div class="title">
+          <a href="/posts/7f5416f8/">
+            <span>如何在学校安全地对爱听歌的同学实施制裁</span>
+          </a>
+        </div>
       </div>
-    </div>
-  
-  <nav class="post-navigation">
     
-    <span class="page-num">1 / 1</span>
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2021</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="快速搭建使用PHP语言的Mirai机器人">
+        <div class="time-m-d">08-14</div>
+        <div class="title">
+          <a href="/posts/1a11a9b/">
+            <span>快速搭建使用PHP语言的Mirai机器人</span>
+          </a>
+        </div>
+      </div>
     
-  </nav>
+  </div>
 </div>
 
         <div class="footer">
