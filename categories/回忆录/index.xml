@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>回忆录 on liutailin&#39;s blog</title>
+    <link>https://blog.liutailin.cn/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/</link>
+    <description>Recent content in 回忆录 on liutailin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2020-2025 liutailin</copyright>
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>回忆录-2020</title>
+      <link>https://blog.liutailin.cn/posts/20201231/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20201231/</guid>
+      <description>2020年是极不平凡的一年，这一年发生了太多的事。时间过得飞快，转眼间，2021年已经到来。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20201231/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

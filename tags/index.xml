@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on liutailin&#39;s blog</title>
+    <link>https://blog.liutailin.cn/tags/</link>
+    <description>Recent content in 标签 on liutailin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2020-2025 liutailin</copyright>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>3D</title>
+      <link>https://blog.liutailin.cn/tags/3d/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/3d/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BodyPaint</title>
+      <link>https://blog.liutailin.cn/tags/bodypaint/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/bodypaint/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://blog.liutailin.cn/tags/arduino/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/arduino/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ESP8266</title>
+      <link>https://blog.liutailin.cn/tags/esp8266/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/esp8266/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mirai</title>
+      <link>https://blog.liutailin.cn/tags/mirai/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/mirai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Miraiez</title>
+      <link>https://blog.liutailin.cn/tags/miraiez/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/miraiez/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>https://blog.liutailin.cn/tags/php/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/php/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2020</title>
+      <link>https://blog.liutailin.cn/tags/2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/2020/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>年终总结</title>
+      <link>https://blog.liutailin.cn/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

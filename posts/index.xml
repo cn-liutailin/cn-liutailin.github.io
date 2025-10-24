@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>归档 on liutailin&#39;s blog</title>
+    <link>https://blog.liutailin.cn/posts/</link>
+    <description>Recent content in 归档 on liutailin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2020-2025 liutailin</copyright>
+    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://blog.liutailin.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BodyPaint无法打开的解决方法</title>
+      <link>https://blog.liutailin.cn/posts/20250531/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20250531/</guid>
+      <description>BodyPaint无法打开的解决方法</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20250531/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>如何在学校安全地对爱听歌的同学实施制裁</title>
+      <link>https://blog.liutailin.cn/posts/20220404/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20220404/</guid>
+      <description>在学校，总有一些人喜欢听歌的 “高素质人才” 使用教室内的计算机，对班内同学进行噪声攻击。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20220404/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>快速搭建使用PHP语言的Mirai机器人</title>
+      <link>https://blog.liutailin.cn/posts/20210814/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20210814/</guid>
+      <description>快速搭建使用PHP语言的Mirai机器人</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20210814/cover.jpg" />
+    </item>
+    
+    <item>
+      <title>回忆录-2020</title>
+      <link>https://blog.liutailin.cn/posts/20201231/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20201231/</guid>
+      <description>2020年是极不平凡的一年，这一年发生了太多的事。时间过得飞快，转眼间，2021年已经到来。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20201231/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>

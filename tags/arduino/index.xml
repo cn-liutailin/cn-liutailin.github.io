@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on liutailin&#39;s blog</title>
+    <link>https://blog.liutailin.cn/tags/arduino/</link>
+    <description>Recent content in Arduino on liutailin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2020-2025 liutailin</copyright>
+    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何在学校安全地对爱听歌的同学实施制裁</title>
+      <link>https://blog.liutailin.cn/posts/20220404/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20220404/</guid>
+      <description>在学校，总有一些人喜欢听歌的 “高素质人才” 使用教室内的计算机，对班内同学进行噪声攻击。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20220404/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>
