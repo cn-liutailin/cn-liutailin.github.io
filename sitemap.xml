@@ -3,6 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://blog.liutailin.cn/tags/blog/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/tags/cloudflare/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/tags/hugo/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/posts/20251025/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/tags/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/categories/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.liutailin.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blog.liutailin.cn/tags/3d/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -16,30 +64,6 @@
   </url>
   <url>
     <loc>https://blog.liutailin.cn/posts/20250531/</loc>
-    <lastmod>2025-05-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.liutailin.cn/</loc>
-    <lastmod>2025-05-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.liutailin.cn/tags/</loc>
-    <lastmod>2025-05-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.liutailin.cn/categories/</loc>
-    <lastmod>2025-05-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.liutailin.cn/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

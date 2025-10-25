@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Copyright © 2020-2025 liutailin</copyright>
-    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blog</title>
+      <link>https://blog.liutailin.cn/tags/blog/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://blog.liutailin.cn/tags/cloudflare/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/cloudflare/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://blog.liutailin.cn/tags/hugo/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>3D</title>
