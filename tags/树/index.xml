@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>树 on liutailin&#39;s blog</title>
+    <link>https://blog.liutailin.cn/tags/%E6%A0%91/</link>
+    <description>Recent content in 树 on liutailin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright © 2020-2025 liutailin</copyright>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.liutailin.cn/tags/%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>青院的树</title>
+      <link>https://blog.liutailin.cn/posts/20251022/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.liutailin.cn/posts/20251022/</guid>
+      <description>青院的树</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.liutailin.cn/posts/20251022/cover.jpg" />
+    </item>
+    
+  </channel>
+</rss>
